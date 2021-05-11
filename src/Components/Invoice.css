@@ -1,0 +1,17 @@
+.main{
+     width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+.main-1{    
+    width: 50%;
+}
+.main-2{
+    width: 25%;
+}
+.main-3{
+    width: 25%;
+}

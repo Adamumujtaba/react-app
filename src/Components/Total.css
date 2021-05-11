@@ -1,0 +1,19 @@
+.total{
+    display: flex;
+    justify-content: space-between;
+    color:grey;
+    width: 90%;
+    margin: auto;
+}
+.total div{
+    width: 200px;
+    margin: 10px;
+}
+.total div:nth-child(2){
+    text-align: right;
+}
+.total h1{
+    color: #036df5;
+    margin:10px 0px;
+    font-size: large;
+}
