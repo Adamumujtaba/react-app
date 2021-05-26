@@ -12,15 +12,15 @@ import Footer from './Components/Footer'
 function App() {
   return (
     <div>
-    
+    // Style Branch
     <Header schName= 'christ the king college' id='#tj300395saf' />
-    <Address /> 
+    <Address />
     <InvoiceName />
     <InvoiceFor />
-    <Price /> 
+    <Price />
     <Total />
     <Footer />
- 
+
     </div>
   )
 }
