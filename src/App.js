@@ -6,13 +6,13 @@ import InvoiceName from './Components/InvoiceName'
 import InvoiceFor from './Components/InvoiceFor'
 import Price from './Components/Price'
 import Total from './Components/Total'
-import Footer from './Components/Footer'
+import Footer from './Components/Footer' 
 
 
 function App() {
   return (
     <div>
-    // Master Branch
+ 
     <Header schName= 'christ the king college' id='#tj300395saf' />
     <Address />
     <InvoiceName />
@@ -20,7 +20,8 @@ function App() {
     <Price />
     <Total />
     <Footer />
-
+ 
+   
     </div>
   )
 }

@@ -1,21 +1,23 @@
 import React from 'react'
-import './Address.css'
+import { Container } from '../Styled/Container'
+import { Address1 } from '../Styled/Head';
 
 function Address() {
     return (
-        <>
-        <div className="container">
-        <div className="address">
+        <div>
+       <Container>
+            <Address1>
         <p>
              Plot 306 Lemon Crescent, 
              Gwagwalada, Abuja,
              090128934834,
              info@ckcabuja.com.ng
-         </p> 
-        </div>
-      
+        </p>
+            </Address1>
+        </Container>
         </div> 
-        </>
+            
+      
     )
 }
 

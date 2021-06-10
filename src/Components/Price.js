@@ -1,38 +1,44 @@
 import React from 'react'
-import './Price.css'
+import { Container } from "../Styled/Container";
+import { Hori_Line, PriceCont, PriceDiv, Price_Num } from "../Styled/Main";
+
 
 function Price(props) {
     return (
-        <div className="priceSec">
+        <div>
+      <Container>
 
-                <div className="price">
+               <PriceCont>
 
-                <div className="item">
+                <PriceDiv>
                     <span>Item</span>
                     <pre>Price</pre>
-                </div>
+                    </PriceDiv>
 
-
-                <div>
+                <PriceDiv>
                     <b>Tuition fee</b>
-                    <p className="num">&#8358; 250,000.00</p>
-                </div>
-                <hr />
+                    <Price_Num>&#8358; 250,000.00</Price_Num> 
+                </PriceDiv>
+                <Hori_Line />
 
-                <div>
+                <PriceDiv>
                     <b>Tuition fee</b>
-                    <p className="num">&#8358; 250,000.00</p>
-                </div>
-                <hr />
+                    <Price_Num>&#8358; 250,000.00</Price_Num> 
+                </PriceDiv>
+                <Hori_Line />
 
-                <div>
+
+                <PriceDiv>
                     <b>Tuition fee</b>
-                    <p className="num">&#8358; 250,000.00</p>
-                </div>
+                    <Price_Num>&#8358; 250,000.00</Price_Num> 
+                </PriceDiv>
 
-                </div>
+                </PriceCont>
  
+                </Container>
+
         </div>
+
     )
 }
 

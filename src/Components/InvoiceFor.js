@@ -1,31 +1,34 @@
 import React from 'react'
-import './Invoice.css'
+import { InvoiceCont, InvoiceDiv, InvoiceMaiDiv } from '../Styled/Main'
+
 
 function InvoiceFor() {
     return (
-        <>
+        <div>
        
-
-        <div className="main">
-                <div className="main-1"> 
-                    <p>Invoice For:</p>
+        <InvoiceCont>
+            
+               <InvoiceMaiDiv>
+                   <p>Invoice For:</p>
                     <b>Junior Secondary School 1 (JSS 1)</b>
-                </div>
-        
-                <div className="main-2">
+                </InvoiceMaiDiv>
+                    
+                 <InvoiceDiv>
                     <p>Session:</p>
-                    <b>2021/2022</b>
-                </div>
+                    <b>2021/2022</b>              
+                  </InvoiceDiv>
         
-                <div className="main-3">
+                <InvoiceDiv>
+
                     <p>Term:</p>
                     <b>1st Term</b>
-                </div>
+                </InvoiceDiv>
 
+        </InvoiceCont>
+     
 
-        </div>
-
-    </>
+        
+    </div>
     )
 }
 

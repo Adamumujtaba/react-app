@@ -1,21 +1,28 @@
 import React from 'react'
-import './Header.css';
+import { Container } from '../Styled/Container';
+import { Flexdiv } from "../Styled/Flexdiv"
+import { Logo, SchId, SchName } from '../Styled/Head';
+
+
 
 function Header(props) {
     return (
-        <>
-    <div className="container">
-            <div>
-                <h1 id="logo"></h1>
-                <h3 className="schName">{props.schName}</h3>
-            </div>
+        <div>
+    <Container>
+        <Flexdiv>
+ 
+            <Flexdiv>
+                <Logo />
+                <SchName>{props.schName}</SchName>
+            </Flexdiv>
 
            <div>
-                 <h1 className="schId">{props.id}</h1>
+                <SchId> {props.id}</SchId>
            </div>
-    </div>
+           </Flexdiv>
+    </Container>
             
-        </>
+        </div>
     )
 }
 

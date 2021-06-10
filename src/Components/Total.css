@@ -17,3 +17,14 @@
     margin:10px 0px;
     font-size: large;
 }
+
+.TotalDivLeft{
+    width: 200px;
+    margin: 10px;
+}
+
+.TotalDivRight{
+    width: 200px;
+    margin: 10px;
+    text-align: right;
+}

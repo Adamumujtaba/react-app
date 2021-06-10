@@ -1,27 +1,30 @@
 import React from 'react'
-import { FaPenSquare } from 'react-icons/fa'
-import './Footer.css'
+import { FaPenSquare } from 'react-icons/fa';
+import { Button, FooterCont, Linked } from '../Styled/FooterStyle';
+
+
 
 function Footer() {
     return (
         <div>
             <hr />
-            <div className = "footer">
+            <FooterCont>
             
-            <p>This can be updated from the <a href="#">fees management</a> section</p>
+            <p>This can be updated from the <Linked>fees management</Linked> section</p>
               
 
-           <a href="http://"  rel="noopener noreferrer">
-            <FaPenSquare />  Edit Template 
-           </a>   
+            <Linked>
+                 <FaPenSquare />  Edit Template 
+           </Linked>
           
           
-           <button>Close</button>
+           <Button>Close</Button>
                  
-            </div>
+            </FooterCont>
    
         </div>
     )
 }
 
 export default Footer
+

@@ -1,31 +1,38 @@
 import React from 'react'
-import './Invoice.css'
+import { InvoiceCont, InvoiceDiv, InvoiceMaiDiv } from '../Styled/Main'
 
 function InvoiceName() {
     return (
-        <>
+        <div>
        
-
-        <div className="main">
-                <div className="main-1"> 
+        <InvoiceCont>
+            
+             <InvoiceMaiDiv>
+                 
                     <p>Invoice Name:</p>
                     <b>Tuition Fee Invoice</b>
-                </div>
-        
-                <div className="main-2">
-                    <p>Date issued:</p>
+            
+              </InvoiceMaiDiv>
+                 
+             <InvoiceDiv>
+             
+                   <p>Date issued:</p>
                     <b>21st April 2021</b>
-                </div>
-        
-                <div className="main-3">
+            </InvoiceDiv>
+
+
+            <InvoiceDiv>
+
                     <p>Due date:</p>
                     <b>04th may 2021</b>
-                </div>
+                 </InvoiceDiv>
+           
 
+                </InvoiceCont>
+      
+        
 
-        </div>
-
-    </>
+    </div>
     )
 }
 
